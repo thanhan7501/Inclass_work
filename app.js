@@ -24,7 +24,7 @@ app.post('/doRegister', (req, res) => {
 
     if (name.length <= 3)
         errorNameMessage = "name length must > 3";
-    if (date.length <= 10)
+    if (date.length <= 0)
         errorDateMessage = "date invalid";
     if (errorNameMessage != null || errorDateMessage != null) {
         let errorData = { name: errorNameMessage, date: errorDateMessage };

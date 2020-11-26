@@ -15,3 +15,7 @@ form {
     padding-bottom: 40px;
     border-radius: 3px;
   }
+  body{
+    background-image: url("../img/background1.jpg");
+    background-size: cover;
+  }
